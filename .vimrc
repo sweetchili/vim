@@ -50,6 +50,9 @@ let g:airline_detect_modified=1
 let g:airline_detect_iminsert=1
 let g:airline_theme='bubblegum'
 
+" NERDTree configs "
+let g:NERDTreeDirArrows=0
+
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 au BufNewFile,BufRead *.gradle setf groovy
 
